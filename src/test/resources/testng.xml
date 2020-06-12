@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="soft club tests">
+    <test name="UI">
+        <classes>
+            <class name="com.softclub.gmail.com.tests.ui.CheckUserIsAbleToLogInWithValidDataTest"/>
+            <class name="com.softclub.gmail.com.tests.ui.CheckUserIsAbleToLogoutTest"/>
+            <class name="com.softclub.gmail.com.tests.ui.CheckUserIsAbleToSendLetterToHimselfTest"/>
+        </classes>
+    </test>
+    <test name="unit">
+        <classes>
+            <class name="com.softclub.gmail.com.tests.unit.LetterTest"/>
+        </classes>
+    </test>
+</suite>
